@@ -1,12 +1,10 @@
-#include <stdio.h>
-
-void strcat(char *line,char *line2);
+void strcat(char *line,char *line_two);
 
 int main(void)
 {
-  char line[100]="Iron ";
-  char line2[]=" man";
-  strcat(line,line2);
+  char line[100]="programming ";
+  char line_two[]=" с";
+  strcat(line,line_two);
   printf("%s",line);
   return 0;
 }
